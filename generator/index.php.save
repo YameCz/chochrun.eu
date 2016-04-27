@@ -1,0 +1,15 @@
+<?php
+
+$pass_length = 8;
+
+for($n = 1;$n <= $pass_length; $n++){
+	$char = [
+		chr(rand(65, 90)),
+		chr(rand(97, 122))
+	];
+	if($n == $pass_length-1){
+		
+	}else{
+		echo $char[rand(0, 2)];
+	}
+}
