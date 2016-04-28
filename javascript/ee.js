@@ -12,6 +12,7 @@ $(function(){
         var map = {65: false, 82: false, 87: false, 73:false}; // arwi
         var map2 = {70: false, 69: false, 84: false, 65:false, 75:false}; // fetak
         var buzzer = $('#buzzer')[0];
+        var lol = $('#lol')[0];
         $("body").keydown(function (e) {
             var char = e.keyCode;
             if (char == 68) {
@@ -25,6 +26,8 @@ $(function(){
                 map[char] = true;
                 if (map[65] && map[82] && map[87] && map[73]) {
                     buzzer.pause();
+                    lol.play();
+                    alert(":DD");
                     return false;
                 }
             }
@@ -32,7 +35,9 @@ $(function(){
             if (char in map2) {
                 map[char] = true;
                 if (map[70] && map[69] && map[84] && map[65] && map[75]) {
+                        lol.pause();
                         buzzer.play();
+                        alert("Smažko vykurvená :DD");
                         return false;
                 }
             }
