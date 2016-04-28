@@ -1,1 +1,1 @@
-http://www.chochrun.eu
+http://localhost/chochrun.eu
