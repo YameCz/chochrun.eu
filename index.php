@@ -11,19 +11,19 @@ if($maintenance == 1 && !in_array($ip,$whitelist)){
 }
 $root_url = file_get_contents("domain.txt");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE htm>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Chochrun.eu</title>
-    <link href="http://fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css">
     <!-- Included CSS Files -->
-    <link rel="stylesheet" href="stylesheets/main.css" />
-    <link rel="stylesheet" href="stylesheets/devices.css" />
-    <link rel="stylesheet" href="stylesheets/paralax_slider.css" />
-    <link rel="stylesheet" href="stylesheets/post.css" type="text/css" media="screen" title="no title" charset="utf-8" />
-    <link rel="stylesheet" href="stylesheets/jquery.fancybox1c51.css?v=2.1.2" type="text/css"  media="screen" />
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/devices.css">
+    <link rel="stylesheet" href="stylesheets/paralax_slider.css">
+    <link rel="stylesheet" href="stylesheets/post.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/jquery.fancybox1c51.css?v=2.1.2" type="text/css"  media="screen">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="javascript/ee.js"></script>
@@ -45,16 +45,16 @@ $root_url = file_get_contents("domain.txt");
     <div id="main_wrapper">
 
         <!--********************************************* Logo Start *********************************************-->
-        <div id="logo"> <a href="<?= $root_url ?>"><img alt="alt_example" src="images/logo.png"  /></a>
+        <div id="logo"> <a href="<?= $root_url ?>"><img alt="alt_example" src="images/logo.png" ></a>
             <div id="social_ctn">
 
-                <a class="social_t"><img alt="alt_example" src="images/social_tleft.png" /></a>
+                <a class="social_t"><img alt="alt_example" src="images/social_tleft.png"></a>
 
                 <a href="#" id="facebook"><img alt="alt_example" src="images/blank.gif" width="100%"/></a>
                 <a href="#" id="google_plus"><img alt="alt_example" src="images/blank.gif" width="100%"/></a>
-                <a href="#" id="you_tube"><img alt="alt_example" src="images/blank.gif" width="100%" /></a>
+                <a href="#" id="you_tube"><img alt="alt_example" src="images/blank.gif" width="100%"></a>
 
-                <a class="social_t" ><img alt="alt_example" src="images/social_tright.png" /></a>
+                <a class="social_t" ><img alt="alt_example" src="images/social_tright.png"></a>
 
             </div>
 
@@ -202,5 +202,6 @@ $root_url = file_get_contents("domain.txt");
         $('#pull').width(menu - 20);
     });
 </script>
+<audio id="buzzer" src="mp3/fetak.mp3"></audio>
 </body>
 </html>
