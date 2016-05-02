@@ -8,7 +8,7 @@
         <div class="da-slide">
             <h2><a href="#" class="da-link">Ratíškovské servery</a></h2>
             <p>Nabízíme vysoce kvalitní servery přímo z dědiny Ratíškovice! Servery běží na Linuxové distribuci Ubuntu.</p>
-            <div class="da-img"><img src="images/paralax_banner/1.gif"  /></div>
+            <div class="da-img"><img src="images/paralax_banner/1.png"  /></div>
         </div>
       <div class="da-slide">
         <h2><a href="#" class="da-link">Akvár.io</a></h2>
