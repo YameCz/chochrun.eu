@@ -15,21 +15,6 @@
             <h1>Donate system</h1>
             <p>Každý z vás může být <b>sponzorem</b> a podpořit tak chod serveru.</p>
             <p>Nutno zmínit, že veškeré vaše příspěvky budou investovány do chodu VPS a <b>nebudou</b> adminům pokrývat útratu v hospodě.</p>
-            <h2>Aktuální stav</h2>
-            <ul>
-                <li>
-                    Nutno vybrat: <b>213 Kč</b>
-                </li>
-                <li>
-                    Do: <b> zatím neurčeno</b>
-                </li>
-                <li>
-                    Momentálně zaplatili: <b>---</b>
-                </li>
-                <li>
-                    Kč na osobu: <b>~50Kč</b>
-                </li>
-            </ul>
             <h2>Aktivní sponzoři</h2>
             <ul>
                 <li>Mr. Chochrun</li>
