@@ -94,6 +94,21 @@
 	-o-transition: all 0.35s ease-in-out;
 }
 
+#post_wrapper table{
+	color: white;
+	font-size: 14px;
+	width: 450px;
+}
+
+#post_wrapper table th, #post_wrapper table td{
+	width: 33%;
+}
+
+#post_wrapper table th{
+	text-align: left;
+}
+
+#post
 
 /* header */
 
