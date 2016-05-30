@@ -11,7 +11,7 @@ if($maintenance == 1 && !in_array($ip,$whitelist)){
 }
 $root_url = file_get_contents("domain.txt");
 ?>
-<!DOCTYPE htm>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -86,7 +86,7 @@ $root_url = file_get_contents("domain.txt");
 
             <?php
             #remove the directory path we don't want
-            $request  = str_replace("local.chochrun.eu/", "", $_SERVER['REQUEST_URI']);
+            $request  = str_replace("chochrun.eu/", "", $_SERVER['REQUEST_URI']);
 
             #split the path by '/'
             $params = explode("/", $request);
